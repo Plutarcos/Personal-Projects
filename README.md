@@ -9,4 +9,4 @@ Enigma de Sophia é uma pagina criada como teste em minhas aulas de html. O obje
 
 
 <H2> Aula Desenvolvimento Web
-<p> Projeto realizado no curso de Análise e Desenvolvimento de sistemas
+<H4> Projeto realizado no curso de Análise e Desenvolvimento de sistemas
