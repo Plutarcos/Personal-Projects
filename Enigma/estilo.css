@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: black;
+    margin: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#instructions{
+    color: green;
+}
+
+#hiddenHints{
+    color: black;
+    cursor: default;
+}
+
+#errorPage{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+#jornalStyle{
+    margin: 5px;
+    color: green;
+}
+
+#deepStyles{
+    color: red;
+}
+#deepStyles a{
+    color: red;
+    text-decoration: none;
+}
+
+#melhoresAmigas{
+    margin: 5px;
+    color: yellow;
+    background-image: url(5/treasoning.png);
+}
+
+#wppPrints a{
+    cursor: default;
+}
+
+#morteStyle{
+    color: grey;
+}
+
+#Verdades{
+    color: blue;
+}
