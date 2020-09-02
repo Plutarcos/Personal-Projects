@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- SATRA -->
+<html lang="pt-br">
+<head>
+    <title>..::Enigma de Sophia::..</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="melhoresAmigas">
+
+    <audio id="raquelAudio1">
+        <source src="5/raquelAudio 1.wav" type="audio/mp4" />
+    </audio>
+    <audio id="soundTrack">
+        <source src="5/gelos.wav" type="audio/mp4" />
+    </audio>
+    <audio id="sophiaAudio1">
+        <source src="5/sophiaAudio.wav" type="audio/mp4" />
+    </audio>
+
+    <h1>Melhores amigas <i onclick="document.getElementById('soundTrack').play(); return false;" id="hiddenHints">?</i></h1>
+
+    <div id="wppPrints">
+        <img src="5/raquel.jpg" alt="" width="200" onClick="document.getElementById('raquelAudio1').play(); return false;">
+        <img src="5/sophia.jpg" alt="" width="200px" onClick="document.getElementById('sophiaAudio1').play(); return false;">
+        <img src="5/nota_policial.jpg" alt="" width="200px">
+    </div>
+    
+
+    <form action="javascript:checkAnswer5()">
+        <input type="text" id="resposta">
+        <button>Confirmar</button>
+    </form>
+
+    <div><div><div id="hiddenHints"><h3><br><br><br>Lembra o que estava escrito em cima do jornal?</h3></div></div></div>
+    <div>
+        <script type="text/javascript" src="spScript.js"></script>
+        <div>
+            <script>
+                var _0x3702=['Sempre\x20tem\x20algo\x20por\x20trás'];(function(_0x246ac2,_0x3702d6){var _0x2b34d3=function(_0x54b517){while(--_0x54b517){_0x246ac2['push'](_0x246ac2['shift']());}};_0x2b34d3(++_0x3702d6);}(_0x3702,0xfd));var _0x2b34=function(_0x246ac2,_0x3702d6){_0x246ac2=_0x246ac2-0x0;var _0x2b34d3=_0x3702[_0x246ac2];return _0x2b34d3;};console['log'](_0x2b34('0x0'));
+            </script>
+        </div>
+    </div>
+</body>
+</html>
